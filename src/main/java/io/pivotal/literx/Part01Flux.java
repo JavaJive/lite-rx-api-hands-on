@@ -2,6 +2,7 @@ package io.pivotal.literx;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.time.Duration;
 import reactor.core.publisher.Flux;
 
 /**
@@ -41,9 +42,8 @@ public class Part01Flux {
 
 //========================================================================================
 
-		// TODO Create a Flux that emits increasing values from 0 to 9 each 100ms
 	Flux<Long> counter() {
-		return null;
+		return Flux.interval(Duration.ofMillis(100)).take(10);
 	}
 
 }
