@@ -14,7 +14,7 @@ public class Part01Flux {
 
 	// TODO Return an empty Flux
 	Flux<String> emptyFlux() {
-		return null;
+		return Flux.empty();
 	}
 
 //========================================================================================
