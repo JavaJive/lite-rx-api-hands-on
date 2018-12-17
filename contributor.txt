@@ -2,3 +2,4 @@ trustlyHelena
 trustlyMoa
 trustlyMatilda
 felix-hell
+trustlydaniel
